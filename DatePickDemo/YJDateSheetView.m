@@ -177,7 +177,6 @@
             else if (i == 2) {
                 [dic setObject:self.arrPickerDataSource[i][self.thirdCompoentIndex][num] forKey:[NSString stringWithFormat:@"%d",i]];
             }
-            
         }
         _blockSelectedDict(dic);
     }
